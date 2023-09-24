@@ -14,6 +14,8 @@
 
 `control` - panel de control
 
+`services.msc` - servicios
+
 ## winRE
 
 `reagentc/info` - Verificar estado de winRE
