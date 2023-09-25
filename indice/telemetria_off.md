@@ -12,7 +12,14 @@ Estos son los pasos para desactivar la telemetría y hacer un poco más óptimo 
 6. click derecho crear un nuevo QWORD y asignarle el nombre de “Allow Telemetry”
 ![exp_usuario](../capturas/telemetria/crear_variable.png)
 7. da doble click sobre el valor y confirma que sea 0
-8. windows + r comando: `gpedit.msc` en windows home no está este paqueta así que toca instalarlo se puede instalar con este .bat
+8. windows + r comando: `gpedit.msc` en windows home no está este paqueta así que toca instalarlo se puede instalar con este .bat [go_to_install_gpedit.msc](#install-gpedit)
+9. navegar a Configuración del equipo>Plantillas administrativas>Componentes de windows>Recopilación de datos y versiones preliminares
+10. dar doble click sobre la política "Configurar experiencia del usuario y telemetría asociadas"
+![gpedit](../capturas/telemetria/gpedit.png)
+![deshabilitar](../capturas/telemetria/deshabilitar.png)
+11. ir al programador de tareas
+
+## install gpedit
 
 ```bash
 @echo off 
